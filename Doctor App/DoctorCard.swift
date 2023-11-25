@@ -22,10 +22,13 @@ struct DoctorCard: View {
                             .foregroundColor(PaletteText.lightPrimary)
                             .font(.system(size: 16))
                             .bold()
+                            .lineLimit(1)
                         Text("General Doctor")
                             .foregroundColor(PaletteText.lightSecondary)
-                        .font(.system(size: 14))                    }
-                    Spacer().frame(width: .infinity)
+                            .font(.system(size: 14))
+                            .lineLimit(1)
+                    }.frame(width: .infinity)
+                    Spacer()
                     Button(action: {}) {
                         Image("arrow-right").frame(width: 24, height: 24)                    }
                 }

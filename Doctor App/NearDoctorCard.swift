@@ -29,7 +29,6 @@ struct NearDoctorCard: View {
                     
                 }
                 Spacer()
-                    .frame(width: .infinity)
                 HStack(spacing: 8) {
                     Text(String(doctorData.distance) + " KM")
                         .foregroundColor(PaletteText.secondary)
