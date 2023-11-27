@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B83B577D2B10D03F004F437D /* NearDoctorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B577C2B10D03E004F437D /* NearDoctorList.swift */; };
+		B83B577F2B10DC0E004F437D /* NearDoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B577E2B10DC0E004F437D /* NearDoctorCard.swift */; };
+		B83EB2052B0FA12F009CBE1E /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EB2042B0FA12F009CBE1E /* CategoryList.swift */; };
+		B83EB2072B0FA353009CBE1E /* CategoryIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83EB2062B0FA353009CBE1E /* CategoryIcon.swift */; };
 		B87E15D62B05D55F00BED3A8 /* Doctor_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E15D52B05D55F00BED3A8 /* Doctor_AppApp.swift */; };
 		B87E15D82B05D55F00BED3A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87E15D72B05D55F00BED3A8 /* ContentView.swift */; };
 		B87E15DA2B05D56A00BED3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87E15D92B05D56900BED3A8 /* Assets.xcassets */; };
 		B87E15DD2B05D56A00BED3A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B87E15DC2B05D56A00BED3A8 /* Preview Assets.xcassets */; };
 		B89F7C5A2B0D250B001AF309 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89F7C592B0D250B001AF309 /* Theme.swift */; };
+		B8BCA2472B0E134E00BE29A6 /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BCA2462B0E134E00BE29A6 /* DoctorCard.swift */; };
+		B8BCA2492B0E7DF100BE29A6 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BCA2482B0E7DF100BE29A6 /* SearchField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B83B577C2B10D03E004F437D /* NearDoctorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorList.swift; sourceTree = "<group>"; };
+		B83B577E2B10DC0E004F437D /* NearDoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorCard.swift; sourceTree = "<group>"; };
+		B83EB2042B0FA12F009CBE1E /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		B83EB2062B0FA353009CBE1E /* CategoryIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryIcon.swift; sourceTree = "<group>"; };
 		B87E15D22B05D55F00BED3A8 /* Doctor App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doctor App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87E15D52B05D55F00BED3A8 /* Doctor_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor_AppApp.swift; sourceTree = "<group>"; };
 		B87E15D72B05D55F00BED3A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B87E15D92B05D56900BED3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B87E15DC2B05D56A00BED3A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B89F7C592B0D250B001AF309 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B8BCA2462B0E134E00BE29A6 /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		B8BCA2482B0E7DF100BE29A6 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +65,17 @@
 		B87E15D42B05D55F00BED3A8 /* Doctor App */ = {
 			isa = PBXGroup;
 			children = (
-				B87E15D52B05D55F00BED3A8 /* Doctor_AppApp.swift */,
 				B87E15D72B05D55F00BED3A8 /* ContentView.swift */,
 				B87E15D92B05D56900BED3A8 /* Assets.xcassets */,
 				B87E15DB2B05D56A00BED3A8 /* Preview Content */,
 				B89F7C592B0D250B001AF309 /* Theme.swift */,
+				B87E15D52B05D55F00BED3A8 /* Doctor_AppApp.swift */,
+				B8BCA2462B0E134E00BE29A6 /* DoctorCard.swift */,
+				B8BCA2482B0E7DF100BE29A6 /* SearchField.swift */,
+				B83EB2042B0FA12F009CBE1E /* CategoryList.swift */,
+				B83EB2062B0FA353009CBE1E /* CategoryIcon.swift */,
+				B83B577C2B10D03E004F437D /* NearDoctorList.swift */,
+				B83B577E2B10DC0E004F437D /* NearDoctorCard.swift */,
 			);
 			path = "Doctor App";
 			sourceTree = "<group>";
@@ -140,6 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83B577F2B10DC0E004F437D /* NearDoctorCard.swift in Sources */,
+				B83EB2072B0FA353009CBE1E /* CategoryIcon.swift in Sources */,
+				B8BCA2472B0E134E00BE29A6 /* DoctorCard.swift in Sources */,
+				B83EB2052B0FA12F009CBE1E /* CategoryList.swift in Sources */,
+				B8BCA2492B0E7DF100BE29A6 /* SearchField.swift in Sources */,
+				B83B577D2B10D03F004F437D /* NearDoctorList.swift in Sources */,
 				B89F7C5A2B0D250B001AF309 /* Theme.swift in Sources */,
 				B87E15D82B05D55F00BED3A8 /* ContentView.swift in Sources */,
 				B87E15D62B05D55F00BED3A8 /* Doctor_AppApp.swift in Sources */,
